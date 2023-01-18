@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <AppBar
       color="secondary"
-      position="stick"
+      position="static"
     >
       <Toolbar >
         <IconButton size="small" color="primary edge=" start aria-label="label">

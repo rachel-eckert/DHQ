@@ -3,20 +3,13 @@ import { Button, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { BgImages } from "../components/BgImages";
 
-
 function HomePage() {
-
-
   return (
     <div>
       <Box sx={{ backgroundImage: `url(${BgImages})`, mt: 2 }}>
-      <Typography
-        variant="h3"
-        color="primary"
-        align="center"
-      >
-        Hi, welcome to the your Daily Health Quiz!
-      </Typography>
+        <Typography variant="h3" color="primary" align="center">
+          Hi, welcome to the your Daily Health Quiz!
+        </Typography>
       </Box>
 
       <Typography variant="h4" color="secondary">
@@ -36,46 +29,46 @@ function HomePage() {
 
       <li>
         <h4>What is your metabolic type?</h4>
-        <ul class="choices">
+        <ul className="choices">
           <li>
             <label>
-              <input type="radio" name="question0" value="A" />
+              <input type="radio" className="question0" value="A" />
               <span>Airy</span>
             </label>
           </li>
           <li>
             <label>
-              <input type="radio" name="question0" value="B" />
+              <input type="radio" className="question0" value="B" />
               <span>Earthy</span>
             </label>
           </li>
           <li>
             <label>
-              <input type="radio" name="question0" value="C" />
+              <input type="radio" className="question0" value="C" />
               <span>Firery</span>
             </label>
           </li>
           <li>
             <label>
-              <input type="radio" name="question0" value="D" />
+              <input type="radio" className="question0" value="D" />
               <span>Airy & Earthy</span>
             </label>
           </li>
           <li>
             <label>
-              <input type="radio" name="question0" value="D" />
+              <input type="radio" className="question0" value="D" />
               <span>Airy & Firery</span>
             </label>
           </li>
           <li>
             <label>
-              <input type="radio" name="question0" value="D" />
+              <input type="radio" className="question0" value="D" />
               <span>Firery & Earthy</span>
             </label>
           </li>
           <li>
             <label>
-              <input type="radio" name="question0" value="D" />
+              <input type="radio" className="question0" value="D" />
               <span>Airy, Earthy, & Firery</span>
             </label>
           </li>

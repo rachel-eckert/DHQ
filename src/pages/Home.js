@@ -14,66 +14,10 @@ function HomePage() {
 
       <Typography variant="h4" color="secondary">
         {" "}
-        Here, similar to Ayurvedic Medicine, we believe food can be healing and
-        we have a daily health quiz below that helps give food suggestions based
-        on your metabolic type, the season, and any imbalances you may or may
-        not be experincing!{" "}
+        Here, similar to Ayurvedic Medicine, we believe food can be healing.
+        Below, we have a daily yes or no health quiz that helps give food suggestions
+        based on any imbalances you may or may not be experincing! Some of these questions may sound a little fare fetch or wild to you but go with it our bodies are weird sometime! If you are only experiencing one of the symptoms listed please still answer yes. {" "}
       </Typography>
-
-      <Typography variant="h5">
-        {" "}
-        Before we begin the quiz, its important you know your metabolic type. If
-        you already know your metabolic type, proceed below to the quiz. If you
-        don't, click here to find out.{" "}
-      </Typography>
-
-      <li>
-        <h4>What is your metabolic type?</h4>
-        <ul className="choices">
-          <li>
-            <label>
-              <input type="radio" className="question0" value="A" />
-              <span>Airy</span>
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="radio" className="question0" value="B" />
-              <span>Earthy</span>
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="radio" className="question0" value="C" />
-              <span>Firery</span>
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="radio" className="question0" value="D" />
-              <span>Airy & Earthy</span>
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="radio" className="question0" value="D" />
-              <span>Airy & Firery</span>
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="radio" className="question0" value="D" />
-              <span>Firery & Earthy</span>
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="radio" className="question0" value="D" />
-              <span>Airy, Earthy, & Firery</span>
-            </label>
-          </li>
-        </ul>
-      </li>
 
       <h4>
         Have you been experincing one or all of these? Dry skin, hair, eyes,
@@ -81,12 +25,12 @@ function HomePage() {
       </h4>
       <div className="button-update">
         <Button sx={{ m: 1 }} variant="contained" color="secondary">
-          True
+          Yes
         </Button>
       </div>
       <div className="button-update">
         <Button sx={{ m: 1 }} variant="contained" color="secondary">
-          False
+          No
         </Button>
       </div>
       <p>

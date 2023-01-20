@@ -1,14 +1,14 @@
 const Sequelize = require("sequelize");
 const db = require("../database");
+const Result = require("./resultModel");
 
 const userResultsModel = db.define("userResults", {
-  questions: {
-    type: Sequelize.ARRAY(Sequelize.STRING),
-    defaultValue: [],
-  },
-  results: {
-    type: Sequelize.ARRAY(Sequelize.STRING),
-    defaultValue: [],
+  resultId: {
+    type: Sequelize.INTEGER,
+    references: {
+      model: Result,
+      key: "id",
+    },
   },
 });
 

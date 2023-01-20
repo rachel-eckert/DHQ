@@ -1,18 +1,17 @@
 const db = require("./database");
 
 const User = require("./models/userModel");
-const Questions = require("./models/questionsModel");
-const Results = require("./models/resultsModel");
+const Question = require("./models/questionModel");
+const Result = require("./models/resultModel");
 
-
-Questions.hasOne(Results)
-Results.belongsTo(Questions, { foreignKey: "questionId" });
+Question.hasOne(Result);
+Result.belongsTo(Question);
 
 module.exports = {
   db,
   models: {
     User,
-    Questions,
-    Results,
+    Question,
+    Result,
   },
 };

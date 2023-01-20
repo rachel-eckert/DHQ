@@ -6,23 +6,15 @@ module.exports = [
     password: "123456",
   },
   {
-    id: "265fa850-d249-4fac-86f2-c6bea8747fcc",
-    name: "Anne",
-    email: "anne@example.com",
-    password: "123456",
-    passwordConfirm: "123456",
-  },
-  {
-    id: "cd4841f4-0ba0-4c8e-bef5-670236740e1d",
-    name: "Tessa",
-    email: "tessa@example.com",
-    password: "123456",
-    passwordConfirm: "123456",
-  },
-  {
-    name: "Joy",
+    firstName: "Joy",
+    lastName: "Collier",
     email: "joy@example.com",
+    password: "6789",
+  },
+  {
+    firstName: "Tarik",
+    lastName: "Lowe",
+    email: "Tarik@example.com",
     password: "123456",
-    passwordConfirm: "123456",
   },
 ];

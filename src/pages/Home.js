@@ -6,6 +6,7 @@ import { BgImages } from "../components/BgImages";
 function HomePage() {
   return (
     <div>
+
       <Box sx={{ backgroundImage: `url(${BgImages})`, mt: 2 }}>
         <Typography variant="h3" color="primary" align="center">
           Hi, welcome to the your Daily Health Quiz!

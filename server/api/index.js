@@ -1,8 +1,8 @@
 const router = require("express").Router();
 
-router.use("", require(""));
+router.use("/results", require("./resultsRouter"));
 
-router.use("", require(""));
+router.use("/questions", require("./questionsRouter"));
 
 router.use((req, res, next) => {
   const error = new Error("API not found");
